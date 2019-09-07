@@ -1,0 +1,70 @@
+.navbar
+	{
+		background-color: blue;
+	}
+	
+.navbar a
+	{
+		color: yellow;
+		font-family: "Century Gothic", Arial;
+		font-size: 20px;
+		width: auto;
+		text-decoration: none;
+		text-align: center;
+		display: block;
+	}
+	
+.navbar a:hover
+	{
+		background-color: Yellow;
+		color: blue;
+		font-size: 25px;
+		height: 50px;
+		width: auto;
+		font-family: "Century Gothic", Arial;
+		text-shadow: 2px 2px 4px #000000;
+	}
+	
+.navbar li
+	{
+		list-style-type: none;
+		height: 30px;
+		text-align: center;
+	}	
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+p
+	{
+		font-family: Tahoma, Arial;
+		font-size: 20px;
+	}
+	
+ol, ul
+	{
+		font-family: Tahoma, Arial;
+		font-size: 18px;
+	}
+	
+h1, h2, h3
+	{
+		font-family: Calibri;
+	}
+
+img
+	{
+		height:300px;
+		width:300px;
+	}
