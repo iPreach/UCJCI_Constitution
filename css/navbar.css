@@ -8,11 +8,12 @@
 		color: yellow;
 		font-family: "Century Gothic", Arial;
 		font-size: 20px;
-		height:50px;
+		height:40px;
 		width: auto;
 		text-decoration: none;
 		text-align: center;
 		display: block;
+		padding-top: 20px;
 	}
 	
 .navbar a:hover
@@ -68,4 +69,34 @@ img
 	{
 		height:300px;
 		width:300px;
+	}
+	
+.uptop a
+	{
+		text-decoration: none;
+		color: green;
+		font-size: 20px;
+		font-family: Calibri;
+		font-weight: bold;
+	}	
+	
+.footer
+	{
+		height: 50px;
+		width: auto;
+		background-color: blue;
+	}
+
+.footer a
+	{		
+		text-decoration: none;
+		color: yellow;
+	}
+	
+.footer p
+	{
+		color: yellow;
+		padding-bottom: 200px;
+		font-family: "Century Gothic", Arial;
+		font-size: 20px;
 	}
