@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>UCJCI Constitution 2019</name>
+    <description>
+        Constitution of The United Church in Jamaica and the Cayman Islands
+    </description>
+    <author email="administrator@ucjci.com" href="http://www.ucjci.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
