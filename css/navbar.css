@@ -9,7 +9,7 @@
 		color: yellow;
 		font-family: "Century Gothic", Arial;
 		font-size: 20px;
-		height:40px;
+		height:30px;
 		width: auto;
 		text-decoration: none;
 		text-align: center;
@@ -35,6 +35,30 @@
 		text-align: center;
 	}	
 
+.size button
+	{
+		font-family: "Century Gothic";
+		font-size: 20px;
+		color: white;
+		background-color: #31BFF9;
+		border: 0px;
+		width: 100px;
+		height: 50px;
+	}
+	
+.size button:hover
+	{
+		background-color: #0B3A4D;
+		border: 0px;
+		width: 100px;
+		height: 50px;
+	}
+
+.fixed
+	{
+		position: fixed;
+		width: 100%;
+	}
 
 p
 	{
@@ -92,14 +116,13 @@ img
 
 .search {
   width: 100%;
-  position: fixed;
   display: flex;
   border: 0px;
 }
 
 .searchTerm {
   width: 100%;
-  border: 3px solid blue;
+  border: 3px solid #01374D;
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -115,8 +138,8 @@ img
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid blue;
-  background: blue;
+  border: 1px solid #01374D;
+  background: #01374D;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
