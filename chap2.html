@@ -202,7 +202,8 @@
 				<ol start="7">
 					<li>
 						The Regional Mission Council shall have the power to visit Congregations within its bounds:
-					</li>						
+					</li>
+					<li>					
 						<ol type="a">
 							<li>
 								As a means of showing interest in and imparting stimulus to Church life and work, The Regional Mission Council shall 
@@ -224,7 +225,8 @@
 							<li>
 								Regional Mission Councils shall report annually to Synod their diligence in this matter, specifying the Congregations concerned.
 							</li>
-						</ol>					
+						</ol>
+					</li>	
 				</ol>
 				<h3>
 					Schedule and Records
@@ -477,7 +479,7 @@
 			<script>
 		$(function() {
   $("#upSize").click(function() {
-    $(".container").children().each(function() {
+    $("li, .container").children().each(function() {
       var size = parseInt($(this).css("font-size"));
       size = size + 1 + "px";
       $(this).css({
@@ -490,7 +492,7 @@
 
 $(function() {
   $("#downSize").click(function() {
-    $(".container").children().each(function() {
+    $("li, .container").children().each(function() {
       var size = parseInt($(this).css("font-size"));
       size = size + -1 + "px";
       $(this).css({

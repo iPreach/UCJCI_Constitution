@@ -159,7 +159,7 @@
 			<script>
 		$(function() {
   $("#upSize").click(function() {
-    $(".container").children().each(function() {
+    $("li, .container").children().each(function() {
       var size = parseInt($(this).css("font-size"));
       size = size + 1 + "px";
       $(this).css({
@@ -172,7 +172,7 @@
 
 $(function() {
   $("#downSize").click(function() {
-    $(".container").children().each(function() {
+    $("li, .container").children().each(function() {
       var size = parseInt($(this).css("font-size"));
       size = size + -1 + "px";
       $(this).css({
