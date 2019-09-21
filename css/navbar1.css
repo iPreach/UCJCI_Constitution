@@ -1,0 +1,139 @@
+.dropdown-menu
+	{
+	  position: fixed;
+	  display: inline-block;
+	  top: 42px;
+	  width: auto;
+	}
+
+.nav-btn
+	{
+		height: 40px;
+		width: auto;
+		border: none;
+		border-radius: 0px 0px 10px 10px;
+		background-color: blue;
+		position: absolute;
+	}
+	
+.navbar
+	{
+		background: blue;
+		opacity: 0.8;
+		display: none;
+		margin-bottom: 15px 0;
+		border-radius: 3px;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+		font-family: 'Century Gothic';
+	}
+	
+.navbar ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: block;
+	}
+
+.navbar li 
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		color: yellow;
+	}
+
+.navbar li a
+	{
+		padding: 15px 20px;
+		text-decoration: none;
+		font-size: 25px;
+		color: yellow;
+		display: inline-block;
+		outline: 0;
+		font-weight: 400;
+	}
+	
+	
+.navbar li:hover ul.dropdown
+	{
+		display: contents;
+	}
+	
+.navbar li ul.dropdown
+	{
+		position: absolute;
+		display: none;
+		width: 200px;
+		background: #2980b9;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+		padding-top: 0;
+	}
+	
+.navbar li ul.dropdown li
+	{
+		display: block;
+		list-style-type: none;
+	}
+	
+.navbar	li ul.dropdown li a
+	{
+		padding: 15px 20px;
+		font-size: 20px;
+		color: yellow;
+		display: block;
+		font-weight: 400;
+	}
+	
+.navbar li ul.dropdown li:last-child a /* "li:last-child" last element in the set of li elements*/
+	{
+		border-bottom: none;
+	}
+	
+.navbar li:hover a
+	{
+		background: #03B0DA;
+		width: 100%
+		color: yellow !important;
+	}
+	
+.navbar li:first-child:hover a
+	{
+		border-radius: 3px 0 0 3px;
+	}
+	
+.navbar li ul.dropdown li:hover a
+	{
+		background: rgba( 0, 0, 0, 0.1);
+	}
+	
+.navbar li ul.dropdown li:first-child:hover a
+	{
+		border-radius: 0;
+	}
+	
+.navbar li:hover .arrow-down
+	{
+		border-top: 5px solid #fff;
+	}
+	
+.arrow-down
+	{
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 5px solid #def1f0;
+		position: relative;
+		top: 15px;
+		right: -5px;
+		content: '';
+	}
+
+.dropdown-menu:hover .navbar
+	{
+		display: block;
+		top: 10px;
+		left: 10px;
+	}
