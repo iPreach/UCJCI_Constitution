@@ -2,18 +2,29 @@
 	{
 	  position: fixed;
 	  display: inline-block;
-	  top: 42px;
+	  top: 50px;
 	  width: auto;
+	}
+
+.burger
+	{
+		width: 30px;
+		height: 3px;
+		background-color: white;
+		display: block;
+		margin: 5px;
+		border-radius: 20px;
 	}
 
 .nav-btn
 	{
-		height: 40px;
-		width: auto;
+		height: 53px;
+		width: 53px;
 		border: none;
-		border-radius: 0px 0px 10px 10px;
+		border-radius: 70px;
 		background-color: blue;
 		position: absolute;
+		opacity: 0.5;
 	}
 	
 .navbar

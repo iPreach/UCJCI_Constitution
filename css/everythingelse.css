@@ -5,29 +5,31 @@
 		height: auto;
 	}
 
+.size
+	{
+		position: fixed;
+		top: 60px;
+		right:0;
+	}
+	
 .size button
 	{
 		font-family: "Century Gothic";
 		font-size: 20px;
 		color: white;
-		background-color: #31BFF9;
+		background-color: blue;
 		border: 0px;
-		width: 100px;
-		height: 50px;
+		width: 50px;
+		height: 25px;
+		opacity: 0.3;
 	}
 	
 .size button:hover
 	{
 		background-color: #0B3A4D;
 		border: 0px;
-		width: 100px;
-		height: 50px;
-	}
-
-.fixed
-	{
-		position: fixed;
-		width: 100%;
+		width: 50px;
+		height: 25px;
 	}
 
 p
@@ -89,6 +91,7 @@ img
   display: flex;
   border: 0px;
   position: fixed;
+  opacity: 0.5;
 }
 
 .searchTerm {
