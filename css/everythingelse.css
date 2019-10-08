@@ -86,7 +86,18 @@ img
 	
 /*---Search Bar----*/
 
-.search {
+form
+	{
+		width: 100%;
+	}
+	
+table
+	{
+		width: inherit;
+	}
+
+.search 
+{
   width: 100%;
   display: flex;
   border: 0px;
@@ -94,7 +105,8 @@ img
   opacity: 0.5;
 }
 
-.searchTerm {
+.searchTerm
+{
   width: 100%;
   border: 3px solid blue;
   border-right: none;
@@ -105,11 +117,13 @@ img
   color: black;
 }
 
-.searchTerm:focus{
+.searchTerm:focus
+{
   color: black;
 }
 
-.searchButton {
+.searchButton 
+{
   width: 40px;
   height: 36px;
   border: 1px solid blue;

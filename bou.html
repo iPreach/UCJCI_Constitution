@@ -9,18 +9,27 @@
 		<link rel="stylesheet" type="text/css" href="css/other.css">
 		<script src="jscript/textsize.js"></script>
 		<script src="jscript/jquery-3.4.1.js"></script>
+		<script src="jscript/search.js"></script>
+
     </head>
     <body>
-        <script type="text/javascript" src="cordova.js"></script>		
+        <script type="text/javascript" src="jscript/cordova.js"></script>		
 			<div class="search">
-			  <input type="text" class="searchTerm" placeholder="What are you looking for?">
-			  <button type="submit" class="searchButton" onclick="pleaseSearch()">
-				<i class="fa fa-search"></i>
-			 </button>
+				<form id=f1 name="f1" action="" onSubmit="if(this.t1.value!=null && this.t1.value!='')search(this.t1.value);return false">					
+					<table>
+						<tr>
+							<td>
+								<input type="text" id="t1" name="t1" class="searchTerm" placeholder="What are you looking for?">
+							</td>
+							<td>
+								<button type="submit" class="searchButton">
+									<i class="fa fa-search"></i>
+								</button>
+							</td>
+						</tr>
+					</table>
+				</form>
 			</div>
-		<div class="size">
-			<button id="downSize">A-</button>&nbsp;<button id="upSize">A+</button>
-		</div>	
 		<div class="dropdown-menu">
 			<button class="nav-btn"><div class="burger"></div><div class="burger"></div><div class="burger"></div></button>
 			<div class="navbar" id="myTopnav">
