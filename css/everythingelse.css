@@ -102,7 +102,7 @@ table
   display: flex;
   border: 0px;
   position: fixed;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .searchTerm
