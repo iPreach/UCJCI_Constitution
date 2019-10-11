@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 .dropdown-menu
 	{
 	  position: fixed;
@@ -148,3 +150,162 @@
 		top: 10px;
 		left: 10px;
 	}
+	
+/* NAVBAR END*/	
+
+.container
+	{
+		padding-top: 80px;
+		width: auto;
+		height: auto;
+	}
+
+.change
+	{
+		position: fixed;
+		top: 70px;
+		right:0;
+	}
+	
+.change button
+	{
+		font-family: "Century Gothic";
+		font-size: 20px;
+		color: white;
+		background-color: blue;
+		border: 0px;
+		width: 50px;
+		height: 25px;
+		opacity: 0.3;
+	}
+	
+.change button:hover
+	{
+		background-color: #0B3A4D;
+		border: 0px;
+		width: 50px;
+		height: 25px;
+	}
+
+p
+	{
+		font-family: Tahoma, Arial;
+		font-size: 30px;
+	}
+	
+ol, ul
+	{
+		font-family: Tahoma, Arial;
+		font-size: 27px;
+	}
+	
+h1, h2, h3
+	{
+		font-family: Calibri;
+	}
+	
+h1
+	{
+		font-size: 48px;
+	}
+	
+h2
+	{
+		font-size: 36px;
+	}
+	
+h3
+	{
+		font-size: 31px;
+	}	
+
+img
+	{
+		height:300px;
+		width:300px;
+	}
+	
+.uptop a
+	{
+		text-decoration: none;
+		color: green;
+		font-size: 20px;
+		font-family: Calibri;
+		font-weight: bold;
+	}	
+	
+.footer
+	{
+		height: 50px;
+		width: auto;
+		background-color: blue;
+	}
+
+.footer a
+	{		
+		text-decoration: none;
+		color: yellow;
+	}
+	
+.footer p
+	{
+		color: yellow;
+		font-family: "Century Gothic", Arial;
+		font-size: 20px;
+	}
+	
+/*---Search Bar----*/
+
+form
+	{
+		width: 100%;
+	}
+	
+table
+	{
+		width: inherit;
+	}
+
+.search 
+{
+  width: 100%;
+  display: flex;
+  border: 0px;
+  position: fixed;
+  opacity: 0.9;
+}
+
+.searchTerm
+{
+  width: 100%;
+  border: 3px solid blue;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+  font-size: 35px;
+}
+
+.searchTerm:focus
+{
+  color: black;
+}
+
+.searchButton 
+{
+  width: 60px;
+  height: 56px;
+  border: 1px solid blue;
+  background: blue;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+
+

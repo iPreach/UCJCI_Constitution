@@ -1,3 +1,8 @@
+.logo
+	{
+		padding-top: 80px;
+	}
+
 .container
 	{
 		padding-top: 80px;
@@ -5,14 +10,14 @@
 		height: auto;
 	}
 
-.size
+.change
 	{
 		position: fixed;
-		top: 60px;
+		top: 70px;
 		right:0;
 	}
 	
-.size button
+.change button
 	{
 		font-family: "Century Gothic";
 		font-size: 20px;
@@ -24,7 +29,7 @@
 		opacity: 0.3;
 	}
 	
-.size button:hover
+.change button:hover
 	{
 		background-color: #0B3A4D;
 		border: 0px;
@@ -111,10 +116,11 @@ table
   border: 3px solid blue;
   border-right: none;
   padding: 5px;
-  height: 20px;
+  height: 40px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: black;
+  font-size: 35px;
 }
 
 .searchTerm:focus
@@ -124,8 +130,8 @@ table
 
 .searchButton 
 {
-  width: 40px;
-  height: 36px;
+  width: 60px;
+  height: 56px;
   border: 1px solid blue;
   background: blue;
   text-align: center;

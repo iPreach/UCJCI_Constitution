@@ -10,6 +10,8 @@
 		<script src="jscript/textsize.js"></script>
 		<script src="jscript/jquery-3.4.1.js"></script>
 		<script src="jscript/search.js"></script>
+		<script src="jscript/changeCSS.js"></script>
+		
 
     </head>
     <body>
@@ -53,8 +55,8 @@
 				</ul></center>			
 			</div>
 		</div>
-		<div class="size">
-			<button id="downSize">A-</button>&nbsp;<button id="upSize">A+</button>
+		<div class="change">
+			<button onclick="changeCSS('css/biggest.css', 0);">A+</button>
 		</div>
 		<div class="container">
 			<h2 id="top">
@@ -494,35 +496,6 @@
 					<a href="http://www.ucjci.com">United Church in Jamaica and the Cayman Islands</a> &copy; 2019
 				</p>
 			</center>
-		</div>
-		
-			<script>
-		$(function() {
-  $("#upSize").click(function() {
-    $("li, .container").children().each(function() {
-      var size = parseInt($(this).css("font-size"));
-      size = size + 1 + "px";
-      $(this).css({
-        'font-size': size
-      });
-    });
-  });
-});
-
-
-$(function() {
-  $("#downSize").click(function() {
-    $("li, .container").children().each(function() {
-      var size = parseInt($(this).css("font-size"));
-      size = size + -1 + "px";
-      $(this).css({
-        'font-size': size
-      });
-    });
-  });
-});
-		
-		</script>
-			
+		</div>	
     </body>
 </html>
