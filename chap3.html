@@ -4,15 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>Constitution - United Church in Jamaica and the Cayman Islands</title>
-		<link rel="stylesheet" type="text/css" href="css/everythingelse.css">
-		<link rel="stylesheet" type="text/css" href="css/navbar1.css">
-		<link rel="stylesheet" type="text/css" href="css/other.css">
-		<script src="jscript/textsize.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/normal.css">
 		<script src="jscript/jquery-3.4.1.js"></script>
 		<script src="jscript/search.js"></script>
 		<script src="jscript/changeCSS.js"></script>
-	
-
     </head>
     <body>
         <script type="text/javascript" src="jscript/cordova.js"></script>		
@@ -55,8 +50,14 @@
 				</ul></center>			
 			</div>
 		</div>
-		<div class="change">
-			<button onclick="changeCSS('css/biggest.css', 0);">A+</button>
+		<div class="dropdown-menu-css">
+			<button class="nav-btn-css"><div class="burger-css"></div><div class="burger-css"></div></button><br /><br /><br />
+			<div class="navbar-css">
+				<button onclick="changeCSS('css/normal.css', 0);">Reset</button><br>
+				<button onclick="changeCSS('css/biggest.css', 0);">A+</button><br>
+				<button onclick="changeCSS('css/darkMode.css', 0);">Dark</button><br>
+				<button onclick="changeCSS('css/darkModePlusBig.css', 0);">Dark+</button><br>
+			</div>
 		</div>
 		<div class="container">
 			<h2 id="top">

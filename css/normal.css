@@ -211,6 +211,13 @@
 		float: left;
 	}
 
+
+
+.logo
+	{
+		padding-top: 80px;
+	}
+
 .container
 	{
 		padding-top: 80px;
@@ -248,34 +255,19 @@
 p
 	{
 		font-family: Tahoma, Arial;
-		font-size: 30px;
+		font-size: 20px;
 	}
 	
 ol, ul
 	{
 		font-family: Tahoma, Arial;
-		font-size: 27px;
+		font-size: 18px;
 	}
 	
 h1, h2, h3
 	{
 		font-family: Calibri;
 	}
-	
-h1
-	{
-		font-size: 48px;
-	}
-	
-h2
-	{
-		font-size: 36px;
-	}
-	
-h3
-	{
-		font-size: 31px;
-	}	
 
 img
 	{
@@ -365,5 +357,3 @@ table
 }
 
 /*Resize the wrap to see the search bar change!*/
-
-

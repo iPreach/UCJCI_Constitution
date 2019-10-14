@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 .dropdown-menu
 	{
 	  position: fixed;
@@ -213,9 +215,11 @@
 
 .container
 	{
+		background-color: black;
 		padding-top: 80px;
 		width: auto;
 		height: auto;
+		color: white;
 	}
 
 .change
@@ -229,20 +233,20 @@
 	{
 		font-family: "Century Gothic";
 		font-size: 20px;
-		color: white;
-		background-color: blue;
+		color: black;
+		background-color: yellow;
 		border: 0px;
-		width: 50px;
-		height: 25px;
+		width: 75px;
+		height: 50px;
 		opacity: 0.3;
 	}
 	
 .change button:hover
 	{
-		background-color: #0B3A4D;
+		background-color: darkyellow;
 		border: 0px;
-		width: 50px;
-		height: 25px;
+		width: 75px;
+		height: 50px;
 	}
 
 p
